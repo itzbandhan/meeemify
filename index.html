@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeemeify | Bandhan Pokhrel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Meeemify</h1>
+        <p>Random Meme Generator</p>
+      </div>
+      <div class="content">
+       <button type="button" class="button" onclick="generateMeme()">
+  <div class="button-top">Generate Meme</div>
+  <div class="button-bottom"></div>
+  <div class="button-base"></div>
+</button>
+<div id="loader" class="hidden">
+    Loader
+  </div>
+        <div id="memecontainer"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
